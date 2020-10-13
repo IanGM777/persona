@@ -1,4 +1,4 @@
 # persona
 
-#Iniciar el servidor
+# Iniciar el servidor
 npm run dev
