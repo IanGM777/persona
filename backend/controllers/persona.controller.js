@@ -28,7 +28,7 @@ personaController.updatePersona = async (req, res) => {
         ciudad: req.body.ciudad,
         salario: req.body.salario
     };
-    await Persona.findOneAndUpdate(id, {$set: employee}, {new: true});
+    await Persona.findOneAndUpdate(id, {$set: persona}, {new: true});
     res.json({status: 'Persona Updated'});
 }
 
